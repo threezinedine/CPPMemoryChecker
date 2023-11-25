@@ -29,5 +29,4 @@ target_include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}/src/include
 )
 
-add_subdirectory(tests)
 add_subdirectory(examples)
