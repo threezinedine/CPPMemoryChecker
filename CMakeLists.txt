@@ -29,4 +29,10 @@ target_include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}/src/include
 )
 
+target_link_libraries(
+    ${PROJECT_NAME}
+    PRIVATE
+    memplumber
+)
+
 add_subdirectory(examples)
