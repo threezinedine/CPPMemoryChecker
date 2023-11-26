@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 project(
-    FirstExample_MemoryChecker
+    SecondExample_MemoryChecker
 )
 
 
